@@ -12,6 +12,7 @@ function refreshPage() {
 function App() {
   return (
     <div>
+      <h1 className='h1'>Welcome to Word Card Game</h1>
       <WordCard value = {random}/>
       <button
         type="button"
